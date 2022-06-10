@@ -43,3 +43,29 @@
     object-fit: cover;
 
 }
+
+.section-c {
+    padding: 50px 126px;
+    background-color:indianred
+}
+
+.section-c .caption {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.section-c .grid-container {
+    align-items: center;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto auto;
+}  
+
+.section-c .grid-item img{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
