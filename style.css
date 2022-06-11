@@ -1,3 +1,4 @@
+
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -68,4 +69,12 @@
     width: 100%;
     height: 240px;
     object-fit: cover;
+}
+
+.section-d {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 126px;
+    align-items: center;
+    
 }
