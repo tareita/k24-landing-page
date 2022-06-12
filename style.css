@@ -1,15 +1,31 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    color:white;
+    background-color: black;
+}
 
 .navbar-container {
     display: flex;
     justify-content: space-between;
     padding: 26px 50px;
     align-items: center;
-    background-color: darkmagenta;
+    background-color: black;
+}
+
+.navbar-container button {
+    background-color: ;
+
 }
 
 .section-a {
     padding: 50px 126px;
-    background-color: pink;
+    background-color: black;
   }
 
 .section-a .grid-container {
@@ -28,7 +44,8 @@
 
 .section-b {
     padding: 50px 126px;
-    background-color:goldenrod
+    background-color:white;
+    color:black;
 }
 
 .section-b .grid-container {
@@ -47,7 +64,7 @@
 
 .section-c {
     padding: 50px 126px;
-    background-color:indianred
+    background-color:#003152;
 }
 
 .section-c .caption {
@@ -76,5 +93,5 @@
     flex-direction: column;
     padding: 50px 126px;
     align-items: center;
-    
+    background-color: #0D4073;
 }
