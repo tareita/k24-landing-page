@@ -14,6 +14,18 @@ body {
     font-family: 'Charis SIL', serif;
 }
 
+h1 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+a {
+    cursor: pointer;
+}
+
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -22,8 +34,7 @@ body {
     background-color: black;
 }
 
-a {
-    cursor: pointer;
+.navbar-container a {
     margin: 8px;
     font-size: larger;
 }
@@ -37,18 +48,51 @@ a {
     background-color: black;
   }
 
+
+
 .section-a .grid-container {
     align-items: center;
     display: grid;
     gap: 50px;
-    grid-template-columns: auto auto;
+    grid-template-columns: 52% 48%;
+    margin-bottom: 52px;
 }  
+
+.section-a .image {
+    display: flex;
+    justify-content: end;
+}
 
 .section-a .caption {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 90%;
+}
+
+.section-a .content {
+    max-width: 75%;
+}
+
+.section-a .content h1 {
+    margin-bottom: 12px;
+}
+
+.section-a .content h3 {
+    margin-bottom: 24px;
+}
+
+.section-a .content div {
+    margin-bottom: 80px;
+}
+
+.section-a .caption h3 {
+    margin-bottom: 24px;
+}
+
+.section-a a {
+    border-bottom: 1px solid white;
 }
 
 button {
@@ -75,7 +119,7 @@ button:hover {
 
 .section-b .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
     align-items: center;
 }
@@ -104,19 +148,43 @@ button:hover {
     align-items: center;
     display: grid;
     gap: 50px;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }  
 
 .section-c .grid-item img{
-    width: 100%;
     height: 240px;
+    width: 100%;
     object-fit: cover;
 }
 
+.section-c h1 {
+    margin-bottom: 16px;
+}
+
+.section-c h4 {
+    margin-bottom: 48px;
+}
+
 .section-d {
+    background-color: #0D4073;
+}
+
+.section-d .inner {
     display: flex;
     flex-direction: column;
     padding: 50px 126px;
     align-items: center;
-    background-color: #0D4073;
+}
+
+.section-d .caption {
+    margin-bottom: 25px;
+}
+
+.section-d .caption a {
+    border-bottom: 1px solid white;
+}
+
+.section-d .icons a {
+    margin: 0px 8px;
+    font-size: larger;
 }
