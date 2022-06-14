@@ -2,7 +2,7 @@
 Hand-written CSS replica of K24 Studios website: 
 https://www.k24studios.co.uk/
 
-Deployed at https://k24-landing-page.netlify.app/
+Deployed at: https://k24-landing-page.netlify.app/
 
 Screenshots
 ---
